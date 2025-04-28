@@ -1,0 +1,9 @@
+name: EKS Runner Test
+
+on: [push]
+
+jobs:
+  test:
+    runs-on: [self-hosted]
+    steps:
+      - run: echo "Hello from Kubernetes Pod Runner!"
