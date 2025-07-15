@@ -10,4 +10,4 @@ jobs:
         job: [1, 2, 3, 4, 5]
     steps:
       - run: echo "Job ${{ matrix.job }}"
-      - run: sleep 30s
+      - run: sleep 25s
